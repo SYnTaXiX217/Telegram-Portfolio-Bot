@@ -36,14 +36,6 @@ Telegram-бот, который показывает текущую погоду
         OPENWEATHER_API_KEY=ТВОЙ_КЛЮЧ_OPENWEATHER
         EXCHANGERATE_API_KEY=ТВОЙ_КЛЮЧ_EXCHANGERATE
         ```
-    *   Затем в файле `main.py` (у вас может и по-другому)
-    *   Вписать:
-          ```config
-          bot = Bot(token=TELEGRAM_BOT_TOKEN)
-          dp = Dispatcher()
-          API = OPENWEATHER_API_KEY
-          API = EXCHANGERATE_API_KEY
-          ```
 
 4.  **Запусти бота:**
     ```bash
